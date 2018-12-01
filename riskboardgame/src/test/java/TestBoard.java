@@ -13,8 +13,7 @@ import riskboardgame.Setup;
 public class TestBoard extends TestCase {
 
 	Setup setup = new Setup();
-	String file1 = "Countries.txt";
-	String file2 = "Connectivity.txt";
+
 	  @Test
 	  public void testReinforce(){
 	  	Board bd  = new Board(setup.LoadMap(), setup.LoadDeck());
